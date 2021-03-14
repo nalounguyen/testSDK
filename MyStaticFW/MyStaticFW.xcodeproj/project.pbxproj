@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B19F098C25FC81B00001968A /* TheMyStaticFW */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B19F098D25FC81B00001968A /* Build configuration list for PBXAggregateTarget "TheMyStaticFW" */;
+			buildPhases = (
+				B19F099325FC81BB0001968A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TheMyStaticFW;
+			productName = TheMyStaticFW;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B16CF0D725FDA099005930D6 /* libMyStaticFW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B19F095525FC7E2C0001968A /* libMyStaticFW.a */; };
+		B19F095925FC7E2C0001968A /* MyStaticFW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F095825FC7E2C0001968A /* MyStaticFW.swift */; platformFilter = ios; };
+		B19F096A25FC7FF30001968A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F096925FC7FF30001968A /* AppDelegate.swift */; };
+		B19F096C25FC7FF30001968A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F096B25FC7FF30001968A /* SceneDelegate.swift */; };
+		B19F096E25FC7FF30001968A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F096D25FC7FF30001968A /* ViewController.swift */; };
+		B19F097125FC7FF30001968A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19F096F25FC7FF30001968A /* Main.storyboard */; };
+		B19F097325FC7FF60001968A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19F097225FC7FF60001968A /* Assets.xcassets */; };
+		B19F097625FC7FF60001968A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19F097425FC7FF60001968A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16CF0D825FDA099005930D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19F094D25FC7E2C0001968A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19F095425FC7E2C0001968A;
+			remoteInfo = MyStaticFW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B19F095325FC7E2C0001968A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19F0A1125FD0E080001968A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B19F095525FC7E2C0001968A /* libMyStaticFW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyStaticFW.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19F095825FC7E2C0001968A /* MyStaticFW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStaticFW.swift; sourceTree = "<group>"; };
+		B19F096725FC7FF30001968A /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19F096925FC7FF30001968A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19F096B25FC7FF30001968A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B19F096D25FC7FF30001968A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19F097025FC7FF30001968A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19F097225FC7FF60001968A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19F097525FC7FF60001968A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19F097725FC7FF60001968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19F09FC25FD0DC80001968A /* MyStaticFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyStaticFW.framework; path = "Output/MyStaticFW-Debug-iphoneuniversal/MyStaticFW.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19F095225FC7E2C0001968A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19F096425FC7FF30001968A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16CF0D725FDA099005930D6 /* libMyStaticFW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19F094C25FC7E2C0001968A = {
+			isa = PBXGroup;
+			children = (
+				B19F095725FC7E2C0001968A /* MyStaticFW */,
+				B19F096825FC7FF30001968A /* Example */,
+				B19F095625FC7E2C0001968A /* Products */,
+				B19F097D25FC80240001968A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B19F095625FC7E2C0001968A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19F095525FC7E2C0001968A /* libMyStaticFW.a */,
+				B19F096725FC7FF30001968A /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19F095725FC7E2C0001968A /* MyStaticFW */ = {
+			isa = PBXGroup;
+			children = (
+				B19F095825FC7E2C0001968A /* MyStaticFW.swift */,
+			);
+			path = MyStaticFW;
+			sourceTree = "<group>";
+		};
+		B19F096825FC7FF30001968A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B19F096925FC7FF30001968A /* AppDelegate.swift */,
+				B19F096B25FC7FF30001968A /* SceneDelegate.swift */,
+				B19F096D25FC7FF30001968A /* ViewController.swift */,
+				B19F096F25FC7FF30001968A /* Main.storyboard */,
+				B19F097225FC7FF60001968A /* Assets.xcassets */,
+				B19F097425FC7FF60001968A /* LaunchScreen.storyboard */,
+				B19F097725FC7FF60001968A /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B19F097D25FC80240001968A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19F09FC25FD0DC80001968A /* MyStaticFW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19F095425FC7E2C0001968A /* MyStaticFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19F095C25FC7E2C0001968A /* Build configuration list for PBXNativeTarget "MyStaticFW" */;
+			buildPhases = (
+				B19F095125FC7E2C0001968A /* Sources */,
+				B19F095225FC7E2C0001968A /* Frameworks */,
+				B19F095325FC7E2C0001968A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStaticFW;
+			productName = MyStaticFW;
+			productReference = B19F095525FC7E2C0001968A /* libMyStaticFW.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B19F096625FC7FF30001968A /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19F097825FC7FF60001968A /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				B19F096325FC7FF30001968A /* Sources */,
+				B19F096425FC7FF30001968A /* Frameworks */,
+				B19F096525FC7FF30001968A /* Resources */,
+				B19F0A1125FD0E080001968A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16CF0D925FDA099005930D6 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = B19F096725FC7FF30001968A /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19F094D25FC7E2C0001968A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B19F095425FC7E2C0001968A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B19F096625FC7FF30001968A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B19F098C25FC81B00001968A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B19F095025FC7E2C0001968A /* Build configuration list for PBXProject "MyStaticFW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19F094C25FC7E2C0001968A;
+			productRefGroup = B19F095625FC7E2C0001968A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19F095425FC7E2C0001968A /* MyStaticFW */,
+				B19F096625FC7FF30001968A /* Example */,
+				B19F098C25FC81B00001968A /* TheMyStaticFW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19F096525FC7FF30001968A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19F097625FC7FF60001968A /* LaunchScreen.storyboard in Resources */,
+				B19F097325FC7FF60001968A /* Assets.xcassets in Resources */,
+				B19F097125FC7FF30001968A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B19F099325FC81BB0001968A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Release dir path\nOUTPUT_DIR_PATH=\"${PROJECT_DIR}/XCFramework\"\n\nfunction archivePathSimulator {\n  local DIR=${OUTPUT_DIR_PATH}/archives/\"${1}-SIMULATOR\"\n  echo \"${DIR}\"\n}\n\nfunction archivePathDevice {\n  local DIR=${OUTPUT_DIR_PATH}/archives/\"${1}-DEVICE\"\n  echo \"${DIR}\"\n}\n\n# Archive takes 3 params\n#\n# 1st == SCHEME\n# 2nd == destination\n# 3rd == archivePath\nfunction archive {\n    echo \"▸ Starts archiving the scheme: ${1} for destination: ${2};\\n▸ Archive path: ${3}.xcarchive\"\n    xcodebuild clean archive \\\n    -project \"${PROJECT_NAME}.xcodeproj\" \\\n    -scheme ${1} \\\n    -configuration ${CONFIGURATION} \\\n    -destination \"${2}\" \\\n    -archivePath \"${3}\" \\\n    SKIP_INSTALL=NO \\\n    OBJROOT=\"${OBJROOT}/DependentBuilds\" \\\n    BUILD_LIBRARY_FOR_DISTRIBUTION=YES | xcpretty\n}\n\n# Builds archive for iOS simulator & device\nfunction buildArchive {\n  SCHEME=${1}\n\n  archive $SCHEME \"generic/platform=iOS Simulator\" $(archivePathSimulator $SCHEME)\n  archive $SCHEME \"generic/platform=iOS\" $(archivePathDevice $SCHEME)\n}\n\n# Creates xc framework\nfunction createXCFramework {\n  FRAMEWORK_ARCHIVE_PATH_POSTFIX=\".xcarchive/Products/Library/Frameworks\"\n  FRAMEWORK_SIMULATOR_DIR=\"$(archivePathSimulator $1)${FRAMEWORK_ARCHIVE_PATH_POSTFIX}\"\n  FRAMEWORK_DEVICE_DIR=\"$(archivePathDevice $1)${FRAMEWORK_ARCHIVE_PATH_POSTFIX}\"\n\n  xcodebuild -create-xcframework \\\n            -framework ${FRAMEWORK_SIMULATOR_DIR}/${1}.framework \\\n            -framework ${FRAMEWORK_DEVICE_DIR}/${1}.framework \\\n            -output ${OUTPUT_DIR_PATH}/xcframeworks/${1}.xcframework\n}\n\n### Static Libraries cant be turned into frameworks\nfunction createXCFrameworkForStaticLibrary {\n\n  LIBRARY_ARCHIVE_PATH_POSTFIX=\".xcarchive/Products/usr/local/lib\"\n  LIBRARY_SIMULATOR_DIR=\"$(archivePathSimulator $1)${LIBRARY_ARCHIVE_PATH_POSTFIX}\"\n  LIBRARY_DEVICE_DIR=\"$(archivePathDevice $1)${LIBRARY_ARCHIVE_PATH_POSTFIX}\"\n\n  xcodebuild -create-xcframework \\\n            -library ${LIBRARY_SIMULATOR_DIR}/libStaticLibrary.a \\\n            -library ${LIBRARY_DEVICE_DIR}/libStaticLibrary.a \\\n            -output ${OUTPUT_DIR_PATH}/xcframeworks/${1}.xcframework\n}\n\necho \"#####################\"\necho \"▸ Cleaning the dir: ${OUTPUT_DIR_PATH}\"\nrm -rf $OUTPUT_DIR_PATH\n\n#### Dynamic Framework ####\n\nDYNAMIC_FRAMEWORK=\"${PROJECT_NAME}\"\n\necho \"▸ Archive $DYNAMIC_FRAMEWORK\"\nbuildArchive ${DYNAMIC_FRAMEWORK}\n\necho \"▸ Create $DYNAMIC_FRAMEWORK.xcframework\"\ncreateXCFramework ${DYNAMIC_FRAMEWORK}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19F095125FC7E2C0001968A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19F095925FC7E2C0001968A /* MyStaticFW.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19F096325FC7FF30001968A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19F096E25FC7FF30001968A /* ViewController.swift in Sources */,
+				B19F096A25FC7FF30001968A /* AppDelegate.swift in Sources */,
+				B19F096C25FC7FF30001968A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16CF0D925FDA099005930D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19F095425FC7E2C0001968A /* MyStaticFW */;
+			targetProxy = B16CF0D825FDA099005930D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19F096F25FC7FF30001968A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19F097025FC7FF30001968A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19F097425FC7FF60001968A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19F097525FC7FF60001968A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19F095A25FC7E2C0001968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = mh_dylib;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19F095B25FC7E2C0001968A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = mh_dylib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19F095D25FC7E2C0001968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "./Carthage/Build/iOS/**";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19F095E25FC7E2C0001968A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "./Carthage/Build/iOS/**";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B19F097925FC7FF60001968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34C29C245L;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Example/libMyStaticFW.xcframework";
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nalou.vn.Example123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Example/libMyStaticFW.xcframework\"";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B19F097A25FC7FF60001968A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34C29C245L;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Example/libMyStaticFW.xcframework";
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nalou.vn.Example123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Example/libMyStaticFW.xcframework\"";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B19F098E25FC81B00001968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TG53L2Y8L8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		B19F098F25FC81B00001968A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TG53L2Y8L8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19F095025FC7E2C0001968A /* Build configuration list for PBXProject "MyStaticFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19F095A25FC7E2C0001968A /* Debug */,
+				B19F095B25FC7E2C0001968A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19F095C25FC7E2C0001968A /* Build configuration list for PBXNativeTarget "MyStaticFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19F095D25FC7E2C0001968A /* Debug */,
+				B19F095E25FC7E2C0001968A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19F097825FC7FF60001968A /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19F097925FC7FF60001968A /* Debug */,
+				B19F097A25FC7FF60001968A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19F098D25FC81B00001968A /* Build configuration list for PBXAggregateTarget "TheMyStaticFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19F098E25FC81B00001968A /* Debug */,
+				B19F098F25FC81B00001968A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19F094D25FC7E2C0001968A /* Project object */;
+}
